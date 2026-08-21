@@ -442,8 +442,6 @@ $submenu_item_radius: $popup-radius - $space-size;
 
   &Left {
     spacing: 4px;
-    background-color: rgba($panel-solid, 0.65);
-    border-radius: 0 $medium-size/2 $medium-size/2 0;
 
     &:dnd {
       background-gradient-direction: vertical;
@@ -463,8 +461,6 @@ $submenu_item_radius: $popup-radius - $space-size;
   }
 
   &Right {
-    background-color: rgba($panel-solid, 0.65);
-    border-radius: $medium-size/2 0 0 $medium-size/2;
 
     &:dnd {
       background-gradient-direction: vertical;
@@ -1778,6 +1774,7 @@ $submenu_item_radius: $popup-radius - $space-size;
   &-badge {
     border-radius: 256px;
     background-color: $primary;
+    font-size: 0.8em;
   }
 
   &-item-box {
@@ -1790,7 +1787,7 @@ $submenu_item_radius: $popup-radius - $space-size;
     spacing: $space-size;
 
     &.top, &.bottom {
-      border-top: 2px solid transparent;
+      border-bottom: 2px solid transparent;
       padding: 0 2px;
     }
 
